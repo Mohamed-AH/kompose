@@ -428,7 +428,7 @@ version: "3.3"
 
 services:
   front-end:
-    image: gcr.io/google-samples/gb-frontend:v4
+    image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
     environment:
       - GET_HOSTS_FROM=dns
     ports:
